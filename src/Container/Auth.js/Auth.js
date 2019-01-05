@@ -4,7 +4,7 @@ import {Redirect} from 'react-router-dom'
 
 const Auth = (props)=>{
     
-        if(this.props.user.isLogin){
+        if(props.user.isLogin){
             return <div><Redirect to='/notes' /></div>
         }else{
             return <div><Redirect to='/login' /></div>
