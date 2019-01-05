@@ -2,5 +2,5 @@
 
 
 module.exports = {
-    BASE_URL : 'https://usersampleapp.herokuapp.com/'
+    BASE_URL : 'https://prototypetask.herokuapp.com'
 }
